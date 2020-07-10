@@ -1,0 +1,75 @@
+{
+    "key": "group_5f0839cf4e2f0",
+    "title": "Case Antiques General Settings Page Options",
+    "fields": [
+        {
+            "key": "field_5f0839e36273c",
+            "label": "Authorize Only Forms",
+            "name": "authorize_only_forms",
+            "type": "repeater",
+            "instructions": "Any GravityForms you add here will perform \"Auth-Only\" transactions for Stripe feeds you configure for them.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5f083ac76273d",
+                    "label": "Form",
+                    "name": "submit_project_gf_form_id",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "4": "Absentee\/Phone Bidder",
+                        "5": "Auction Item",
+                        "1": "Auction Preview Brochure Mailing List",
+                        "3": "Consignment Consideration",
+                        "2": "Photo Submission Test",
+                        "6": "Test Form"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "case-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "json_save_path": "..\/..\/plugins\/case-antiques-extras\/lib\/acf-json\/",
+    "modified": 1594378983
+}
