@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:     Case Antiques Extras
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin URI:      https://wenmarkdigital.com
  * Description:     Adds additional functionality to the Case Antiques website.
  * Author:          Michael Wender
  * Author URI:      https://mwender.com
  * Text Domain:     case-antiques-extras
  * Domain Path:     /languages
- * Version:         1.0.0
+ * Version:         1.1.0
  *
  * @package         Case_Antiques_Extras
  */

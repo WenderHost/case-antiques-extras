@@ -1,0 +1,13 @@
+{
+	"name": "wenderhost/case-antiques-extras",
+	"description": "Misc code extensions for the Case Antiques website",
+	"type": "wordpress-plugin",
+	"license": "GPLv2",
+	"authors": [
+		{
+			"name": "Michael Wender",
+			"email": "mwender@wenmarkdigital.com",
+			"homepage": "https://wenmarkdigital.com"
+		}
+	]
+}
