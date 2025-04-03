@@ -3,6 +3,7 @@
 	"description": "Misc code extensions for the Case Antiques website",
 	"type": "wordpress-plugin",
 	"license": "GPLv2",
+	"version": "1.1.x-dev",
 	"authors": [
 		{
 			"name": "Michael Wender",
