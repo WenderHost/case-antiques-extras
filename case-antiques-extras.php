@@ -24,6 +24,7 @@ define( 'CASE_API', 'case/v1' );
 
 // Classes
 require_once CASE_DIR_PATH . 'lib/classes/acf-custom-save-path-setting.php';
+require_once CASE_DIR_PATH . 'lib/classes/my-simple-space.php';
 
 // Functions
 require_once CASE_DIR_PATH . 'lib/fns/acf.php';
