@@ -2,9 +2,9 @@
 **Contributors:** TheWebist  
 **Tags:** comments, spam  
 **Requires at least:** 4.5  
-**Tested up to:** 5.4.2  
-**Requires PHP:** 5.6  
-**Stable tag:** 1.1.0  
+**Tested up to:** 6.8.1  
+**Requires PHP:** 8.0  
+**Stable tag:** 1.1.1  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -17,6 +17,9 @@ Additional features provided by this plugin:
 * General Settings Page with an option for setting Gravity Forms forms Stripe Feeds to do authorize-only transactions.
 
 ## Changelog ##
+
+### 1.1.1 ###
+* Adding `version` to composer.json.
 
 ### 1.1.0 ###
 * Adding `composer.json`. 

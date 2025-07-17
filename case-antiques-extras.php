@@ -7,7 +7,7 @@
  * Author URI:      https://mwender.com
  * Text Domain:     case-antiques-extras
  * Domain Path:     /languages
- * Version:         1.1.0
+ * Version:         1.1.1
  *
  * @package         Case_Antiques_Extras
  */
