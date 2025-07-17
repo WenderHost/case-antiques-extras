@@ -1,9 +1,9 @@
 {
 	"name": "wenderhost/case-antiques-extras",
 	"description": "Misc code extensions for the Case Antiques website",
+	"version": "1.1.2",	
 	"type": "wordpress-plugin",
 	"license": "GPLv2",
-	"version": "1.1.1",
 	"authors": [
 		{
 			"name": "Michael Wender",
