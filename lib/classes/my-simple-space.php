@@ -1,32 +1,4 @@
 <?php
-
-/**
- * Plugin Name: My Simple Space
- * Version: 1.2.9
- * Plugin URI: https://idoweb.work/resources/plugins-themes/
- * Description: Shows the diskspace and memory usage of your site.
- * Author: Michael Mann
- * Author URI: https://idoweb.work
- * License: GPL v2
- * Text-domain: my-simple-space
- * Domain Path: /languages
-
- * Copyright (C) 2015, Michael Mann - support@idoweb.work
-
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation version 2.
-
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
-
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
-
-**/
-
 if( is_admin() ) {
 
 	class SimpleSpace {
@@ -41,7 +13,7 @@ if( is_admin() ) {
 			// Hook into the 'wp_dashboard_setup' action to register our other functions
 			add_action( 'wp_dashboard_setup', array( $this, 'mss_widget' ) );
 			add_action( 'in_admin_footer', array( $this, 'mss_footer' ) );
-			add_action( 'admin_enqueue_scripts', array( $this, 'mss_admin_css' ) );
+			//add_action( 'admin_enqueue_scripts', array( $this, 'mss_admin_css' ) );
 
 		}
 
@@ -78,6 +50,7 @@ if( is_admin() ) {
 		}
 
 	}
+	new SimpleSpace();
 
 	// Check if Screen id equals dashboard
 	add_action( 'current_screen', 'mss_check_screen' );
