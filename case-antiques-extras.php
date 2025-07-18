@@ -7,7 +7,7 @@
  * Author URI:      https://mwender.com
  * Text Domain:     case-antiques-extras
  * Domain Path:     /languages
- * Version:         1.1.2
+ * Version:         1.1.3
  *
  * @package         Case_Antiques_Extras
  */
@@ -45,17 +45,7 @@ require_once CASE_DIR_PATH . 'lib/fns/debug.php';
 add_filter( 'plugin_row_meta', function( $links, $file ) {
   
   if ( strpos( $file, 'case-antiques-extras.php' ) !== false ) {
-    
-    // Check if we're running the local dev version:
-    $plugin_dir = plugin_dir_path( __FILE__ );
-    
-    if ( strpos( $plugin_dir, 'localdev' ) !== false ) {
-      array_unshift( $links, '<span style="padding:2px 8px; background:#0073aa; color:#fff; border-radius:10px; font-size:11px;">local</span> ' );;
-    }
-
     $links[] = '<a href="https://github.com/WenderHost/case-antiques-extras?tab=readme-ov-file#changelog" target="_blank">Changelog</a>';
-    $links[] = '<code>wenderhost/case-antiques-extras</code>';
-
   }
 
   return $links;
